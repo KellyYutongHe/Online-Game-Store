@@ -4,6 +4,34 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Project 1 Milestone 3 - Online Video Game Store</title>
 <link href="../styles.css" rel="stylesheet" type="text/css" />
+
+
+<!-- Form ref here -->
+<script src="../form_src/scriptaculous/lib/prototype.js" type="text/javascript"></script>
+<script src="../form_src/scriptaculous/src/effects.js" type="text/javascript"></script>
+<script type="text/javascript" src="validation.js"></script>
+<!-- <link title="style1" rel="stylesheet" href="../form_src/style.css" type="text/css" /> -->
+
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+<!--
+// Alternative Style: Working With Alternate Style Sheets
+// http://www.alistapart.com/articles/alternate/
+function setActiveStyleSheet(title) {
+var i, a, main;
+for(i=0; (a = document.getElementsByTagName("link")[i]); i++) {
+if(a.getAttribute("rel").indexOf("style") != -1 && a.getAttribute("title")) {
+a.disabled = true;
+if(a.getAttribute("title") == title) a.disabled = false;
+}
+}
+}
+//-->
+//]]>
+</script>
 </head>
 <body>
 <div class="mainContainer">
@@ -34,8 +62,63 @@
             account recovery
         </ul>
     </div>
+
+    <div>
+        <div class="form_content">
+        <form id="test" action="#" method="get">
+        <fieldset>
+            <legend>CART</legend>
+            <div class="form-row">
+                <div class="field-label"><label for="field1">Product ID</label>:</div>
+                <div class="field-widget"><input name="field1" id="field1" class="required" title="Enter your name" /></div>
+            </div>
+            
+            <div class="form-row">
+                <div class="field-label"><label for="field2">Shipping Address</label>:</div>
+                <div class="field-widget"><input name="field2" id="field2" class="required" title="Enter your name" /></div>
+            </div>
+            
+            <div class="form-row">
+                <div class="field-label"><label for="field3">Price</label>:</div>
+                <div class="field-widget"><input class="required"></input></div>
+            </div>
+            
+            
+        </fieldset>
+        
+        
+        <input type="submit" class="submit" value="Purchase" /> 
+        </form>
+        </div>
+        <script type="text/javascript">
+            function formCallback(result, form) {
+                window.status = "valiation callback for form '" + form.id + "': result = " + result;
+            }
+            
+            var valid = new Validation('test', {immediate : true, onFormValidate : formCallback});
+            Validation.addAllThese([
+                ['validate-password', '> 6 characters', {
+                    minLength : 7,
+                    notOneOf : ['password','PASSWORD','1234567','0123456'],
+                    notEqualToField : 'field1'
+                }],
+                ['validate-password-confirm', 'please try again.', {
+                    equalToField : 'field8'
+                }]
+            ]);
+        </script>
     </div>
+        
+
+    
+
+
+    
 </div>
+
+
+
+
 <div class="footer">
 	<div class="footerContainer">
     	<div class="icons">
