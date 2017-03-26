@@ -1,0 +1,301 @@
+Id,Name,Platform,Year_of_Release,Genre
+1,Wii Sports,Wii,2006,Sports
+2,Super Mario Bros.,NES,1985,Platform
+3,Mario Kart Wii,Wii,2008,Racing
+4,Wii Sports Resort,Wii,2009,Sports
+5,Pokemon Red/Pokemon Blue,GB,1996,Role-Playing
+6,Tetris,GB,1989,Puzzle
+7,New Super Mario Bros.,DS,2006,Platform
+8,Wii Play,Wii,2006,Misc
+9,New Super Mario Bros. Wii,Wii,2009,Platform
+10,Duck Hunt,NES,1984,Shooter
+11,Nintendogs,DS,2005,Simulation
+12,Mario Kart DS,DS,2005,Racing
+13,Pokemon Gold/Pokemon Silver,GB,1999,Role-Playing
+14,Wii Fit,Wii,2007,Sports
+15,Kinect Adventures!,X360,2010,Misc
+16,Wii Fit Plus,Wii,2009,Sports
+17,Grand Theft Auto V,PS3,2013,Action
+18,Grand Theft Auto: San Andreas,PS2,2004,Action
+19,Super Mario World,SNES,1990,Platform
+20,Brain Age: Train Your Brain in Minutes a Day,DS,2005,Misc
+21,Pokemon Diamond/Pokemon Pearl,DS,2006,Role-Playing
+22,Super Mario Land,GB,1989,Platform
+23,Super Mario Bros. 3,NES,1988,Platform
+24,Grand Theft Auto V,X360,2013,Action
+25,Grand Theft Auto: Vice City,PS2,2002,Action
+26,Pokemon Ruby/Pokemon Sapphire,GBA,2002,Role-Playing
+27,Brain Age 2: More Training in Minutes a Day,DS,2005,Puzzle
+28,Pokemon Black/Pokemon White,DS,2010,Role-Playing
+29,Gran Turismo 3: A-Spec,PS2,2001,Racing
+30,Call of Duty: Modern Warfare 3,X360,2011,Shooter
+31,Pokemon Yellow: Special Pikachu Edition,GB,1998,Role-Playing
+32,Call of Duty: Black Ops 3,PS4,2015,Shooter
+33,Call of Duty: Black Ops,X360,2010,Shooter
+34,Pokemon X/Pokemon Y,3DS,2013,Role-Playing
+35,Call of Duty: Black Ops II,PS3,2012,Shooter
+36,Call of Duty: Black Ops II,X360,2012,Shooter
+37,Call of Duty: Modern Warfare 2,X360,2009,Shooter
+38,Call of Duty: Modern Warfare 3,PS3,2011,Shooter
+39,Grand Theft Auto III,PS2,2001,Action
+40,Super Smash Bros. Brawl,Wii,2008,Fighting
+41,Mario Kart 7,3DS,2011,Racing
+42,Call of Duty: Black Ops,PS3,2010,Shooter
+43,Grand Theft Auto V,PS4,2014,Action
+44,Animal Crossing: Wild World,DS,2005,Simulation
+45,Halo 3,X360,2007,Shooter
+46,Super Mario 64,N64,1996,Platform
+47,Pokemon HeartGold/Pokemon SoulSilver,DS,2009,Action
+48,Pokemon Omega Ruby/Pokemon Alpha Sapphire,3DS,2014,Role-Playing
+49,Gran Turismo 4,PS2,2004,Racing
+50,Super Mario Galaxy,Wii,2007,Platform
+51,Super Mario Land 2: 6 Golden Coins,GB,1992,Adventure
+52,Grand Theft Auto IV,X360,2008,Action
+53,Gran Turismo,PS,1997,Racing
+54,Super Mario 3D Land,3DS,2011,Platform
+55,Gran Turismo 5,PS3,2010,Racing
+56,Call of Duty: Modern Warfare 2,PS3,2009,Shooter
+57,Super Mario All-Stars,SNES,1993,Platform
+58,Grand Theft Auto IV,PS3,2008,Action
+59,Pokemon FireRed/Pokemon LeafGreen,GBA,2004,Role-Playing
+60,Super Mario 64,DS,2004,Platform
+61,Call of Duty: Ghosts,X360,2013,Shooter
+62,Just Dance 3,Wii,2011,Misc
+63,New Super Mario Bros. 2,3DS,2012,Platform
+64,Mario Kart 64,N64,1996,Racing
+65,Halo: Reach,X360,2010,Shooter
+66,Final Fantasy VII,PS,1997,Role-Playing
+67,Halo 4,X360,2012,Shooter
+68,Gran Turismo 2,PS,1999,Racing
+69,Just Dance 2,Wii,2010,Misc
+70,Call of Duty: Ghosts,PS3,2013,Shooter
+71,Call of Duty 4: Modern Warfare,X360,2007,Shooter
+72,Donkey Kong Country,SNES,1994,Platform
+73,Minecraft,X360,2013,Misc
+74,Animal Crossing: New Leaf,3DS,2012,Simulation
+75,Mario Party DS,DS,2007,Misc
+76,The Elder Scrolls V: Skyrim,X360,2011,Role-Playing
+77,Super Mario Kart,SNES,1992,Racing
+78,FIFA 16,PS4,2015,Sports
+79,Halo 2,XB,2004,Shooter
+80,Wii Party,Wii,2010,Misc
+81,Mario Party 8,Wii,2007,Misc
+82,FIFA Soccer 13,PS3,2012,Action
+83,GoldenEye 007,N64,1997,Shooter
+84,Pokemon Black 2/Pokemon White 2,DS,2012,Role-Playing
+85,Final Fantasy X,PS2,2001,Role-Playing
+86,The Sims 3,PC,2009,Simulation
+87,Mario & Sonic at the Olympic Games,Wii,2007,Sports
+88,Star Wars Battlefront (2015),PS4,2015,Shooter
+89,Final Fantasy VIII,PS,1999,Role-Playing
+90,Pac-Man,2600,1982,Puzzle
+91,Pokemon Platinum Version,DS,2008,Role-Playing
+92,Grand Theft Auto: Liberty City Stories,PSP,2005,Action
+93,Call of Duty: Advanced Warfare,PS4,2014,Shooter
+94,The Legend of Zelda: Ocarina of Time,N64,1998,Action
+95,FIFA 17,PS4,2016,Sports
+96,Crash Bandicoot 2: Cortex Strikes Back,PS,1997,Platform
+97,Super Smash Bros. for Wii U and 3DS,3DS,2014,Fighting
+98,Super Mario Galaxy 2,Wii,2010,Platform
+99,Super Mario Bros. 2,NES,1988,Platform
+100,Call of Duty: Black Ops 3,XOne,2015,Shooter
+101,Call of Duty: World at War,X360,2008,Shooter
+102,Battlefield 3,X360,2011,Shooter
+103,Need for Speed Underground,PS2,2003,Racing
+104,Just Dance,Wii,2009,Misc
+105,Battlefield 3,PS3,2011,Shooter
+106,Fallout 4,PS4,2015,Role-Playing
+107,Tekken 3,PS,1998,Fighting
+108,The Legend of Zelda: Twilight Princess,Wii,2006,Action
+109,Pokemon Sun/Moon,3DS,2016,Role-Playing
+110,Crash Bandicoot 3: Warped,PS,1998,Platform
+111,Mario Kart 8,WiiU,2014,Racing
+112,Super Smash Bros. Melee,GC,2001,Fighting
+113,Mario Kart: Double Dash!!,GC,2003,Racing
+114,Need for Speed Underground 2,PS2,2004,Racing
+115,Medal of Honor: Frontline,PS2,2002,Shooter
+116,Crash Bandicoot,PS,1996,Platform
+117,Just Dance 4,Wii,2012,Misc
+118,Gears of War 2,X360,2008,Shooter
+119,Uncharted 3: Drake's Deception,PS3,2011,Action
+120,Zumba Fitness,Wii,2010,Sports
+121,Call of Duty 4: Modern Warfare,PS3,2007,Shooter
+122,Uncharted 2: Among Thieves,PS3,2009,Action
+123,FIFA 12,PS3,2011,Sports
+124,Big Brain Academy,DS,2005,Misc
+125,The Legend of Zelda,NES,1986,Action
+126,Red Dead Redemption,PS3,2010,Action
+127,FIFA 14,PS3,2013,Sports
+128,Assassin's Creed III,PS3,2012,Action
+129,Donkey Kong Country Returns,Wii,2010,Platform
+130,Halo: Combat Evolved,XB,2001,Shooter
+131,The Elder Scrolls V: Skyrim,PS3,2011,Role-Playing
+132,Pokémon Emerald Version,GBA,2004,Role-Playing
+133,Kingdom Hearts,PS2,2002,Role-Playing
+134,Pokémon Crystal Version,GB,2000,Role-Playing
+135,Halo 3: ODST,X360,2009,Shooter
+136,Red Dead Redemption,X360,2010,Action
+137,Super Mario Sunshine,GC,2002,Platform
+138,Street Fighter II: The World Warrior,SNES,1992,Fighting
+139,World of Warcraft,PC,2004,Role-Playing
+140,Driver,PS,1999,Action
+141,Gears of War 3,X360,2011,Shooter
+142,Kinect Sports,X360,2010,Sports
+143,Gears of War,X360,2006,Shooter
+144,FIFA 15,PS4,2014,Sports
+145,Metal Gear Solid 2: Sons of Liberty,PS2,2001,Action
+146,Sonic the Hedgehog 2,GEN,1992,Platform
+147,Metal Gear Solid,PS,1998,Action
+148,Metal Gear Solid 4: Guns of the Patriots,PS3,2008,Action
+149,Final Fantasy XII,PS2,2006,Role-Playing
+150,The Last of Us,PS3,2013,Action
+151,LittleBigPlanet,PS3,2008,Platform
+152,Resident Evil 2,PS,1998,Action
+153,Dragon Quest IX: Sentinels of the Starry Skies,DS,2009,Role-Playing
+154,Tekken 2,PS,1996,Fighting
+155,Destiny,PS4,2014,Shooter
+156,LEGO Star Wars: The Complete Saga,Wii,2007,Action
+157,Cooking Mama,DS,2006,Simulation
+158,Tetris,NES,1988,Puzzle
+159,Super Smash Bros.,N64,1999,Fighting
+160,Assassin's Creed II,PS3,2009,Action
+161,Assassin's Creed,X360,2007,Adventure
+162,Forza Motorsport 3,X360,2009,Racing
+163,Super Mario Advance,GBA,2001,Platform
+164,Monster Hunter Freedom Unite,PSP,2008,Role-Playing
+165,Batman: Arkham City,PS3,2011,Action
+166,Grand Theft Auto V,XOne,2014,Action
+167,Mario Kart: Super Circuit,GBA,2001,Racing
+168,Super Mario World,GBA,2001,Platform
+169,Pokemon Stadium,N64,1999,Strategy
+170,Crash Bandicoot: The Wrath of Cortex,PS2,2001,Platform
+171,Call of Duty: World at War,PS3,2008,Shooter
+172,Uncharted 4: A Thief's End,PS4,2016,Shooter
+173,Dr. Mario,GB,1989,Puzzle
+174,Final Fantasy XIII,PS3,2009,Role-Playing
+175,Pokemon Pinball,GB,1999,Misc
+176,Final Fantasy IX,PS,2000,Role-Playing
+177,Assassin's Creed III,X360,2012,Action
+178,Final Fantasy X-2,PS2,2003,Role-Playing
+179,Donkey Kong 64,N64,1999,Platform
+180,Call of Duty: Advanced Warfare,XOne,2014,Shooter
+181,Minecraft,PS3,2014,Misc
+182,Assassin's Creed II,X360,2009,Action
+183,Tomb Raider II,PS,1997,Action
+184,Madden NFL 2004,PS2,N/A,Sports
+185,Tomodachi Life,3DS,2013,Simulation
+186,New Super Mario Bros. U,WiiU,2012,Platform
+187,Dragon Quest VIII: Journey of the Cursed King,PS2,2004,Role-Playing
+188,Super Mario Bros. 3,GBA,2003,Platform
+189,Professor Layton and the Curious Village,DS,2007,Puzzle
+190,Super Mario Land 3: Wario Land,GB,1994,Platform
+191,FIFA Soccer 13,X360,2012,Action
+192,Donkey Kong Country 2: Diddy's Kong Quest,SNES,1995,Platform
+193,Diablo III,PC,2012,Role-Playing
+194,Medal of Honor: Rising Sun,PS2,2003,Shooter
+195,Kirby's Dream Land,GB,1992,Platform
+196,Microsoft Flight Simulator,PC,1996,Simulation
+197,Guitar Hero II,PS2,2006,Misc
+198,Fable III,X360,2010,Role-Playing
+199,Mario & Sonic at the Olympic Games,DS,2008,Sports
+200,Resident Evil 5,PS3,2009,Action
+201,The Legend of Zelda: Phantom Hourglass,DS,2007,Action
+202,Super Mario Bros.,GB,1999,Platform
+203,FIFA Soccer 11,PS3,2010,Sports
+204,Resident Evil,PS,1996,Action
+205,Grand Theft Auto: Vice City Stories,PSP,2006,Action
+206,Tony Hawk's Pro Skater,PS,1999,Sports
+207,Warzone 2100,PS,1999,Strategy
+208,Spyro the Dragon,PS,1998,Platform
+209,Guitar Hero III: Legends of Rock,PS2,2007,Misc
+210,Link's Crossbow Training,Wii,2007,Shooter
+211,Pokemon Mystery Dungeon: Explorers of Time/Explorers of Darkness,DS,2007,Role-Playing
+212,Fallout 3,X360,2008,Role-Playing
+213,Uncharted: Drake's Fortune,PS3,2007,Action
+214,Madden NFL 06,PS2,2005,Sports
+215,Diddy Kong Racing,N64,1997,Racing
+216,Monster Hunter Freedom 3,PSP,2010,Role-Playing
+217,Super Smash Bros. for Wii U and 3DS,WiiU,2014,Fighting
+218,Dr. Mario,NES,1990,Puzzle
+219,StarCraft II: Wings of Liberty,PC,2010,Strategy
+220,Assassin's Creed,PS3,2007,Adventure
+221,God of War III,PS3,2010,Action
+222,Crash Team Racing,PS,1999,Racing
+223,LEGO Star Wars: The Complete Saga,DS,2007,Action
+224,Driver 2,PS,2000,Action
+225,Batman: Arkham City,X360,2011,Action
+226,The Last of Us,PS4,2014,Action
+227,The Simpsons: Hit & Run,PS2,2003,Racing
+228,Tony Hawk's Pro Skater 2,PS,2000,Sports
+229,The Lord of the Rings: The Two Towers,PS2,2002,Action
+230,Tomb Raider,PS,1996,Action
+231,Animal Crossing: City Folk,Wii,2008,Simulation
+232,Uncharted: The Nathan Drake Collection,PS4,2015,Action
+233,The Legend of Zelda: A Link to the Past,SNES,1991,Action
+234,The Legend of Zelda: The Wind Waker,GC,2002,Action
+235,Guitar Hero III: Legends of Rock,Wii,2007,Misc
+236,Luigi's Mansion: Dark Moon,3DS,2013,Action
+237,Forza Motorsport 4,X360,2011,Racing
+238,Mario & Sonic at the Olympic Winter Games,Wii,2009,Sports
+239,Madden NFL 2005,PS2,2004,Sports
+240,Guitar Hero III: Legends of Rock,X360,2007,Misc
+241,Pitfall!,2600,1981,Platform
+242,Madden NFL 07,PS2,2006,Sports
+243,Halo 5: Guardians,XOne,2015,Shooter
+244,Spider-Man: The Movie,PS2,2002,Action
+245,Dragon Quest VII: Warriors of Eden,PS,2000,Role-Playing
+246,Call of Duty: Infinite Warfare,PS4,2016,Shooter
+247,God of War,PS2,2005,Action
+248,Splatoon,WiiU,2015,Shooter
+249,Nintendo Land,WiiU,2012,Misc
+250,Tony Hawk's Pro Skater 3,PS2,2001,Sports
+251,Winning Eleven: Pro Evolution Soccer 2007,PS2,2006,Sports
+252,The Elder Scrolls IV: Oblivion,X360,2006,Role-Playing
+253,Zelda II: The Adventure of Link,NES,1987,Adventure
+254,Need for Speed: Most Wanted,PS2,2005,Racing
+255,Michael Jackson: The Experience,Wii,2010,Misc
+256,Call of Duty: Advanced Warfare,PS3,2014,Shooter
+257,Resistance: Fall of Man,PS3,2006,Shooter
+258,Sonic the Hedgehog,GEN,1991,Platform
+259,Kingdom Hearts II,PS2,2005,Role-Playing
+260,The Legend of Zelda: Ocarina of Time,3DS,2011,Action
+261,Super Mario 3D World,WiiU,2013,Platform
+262,Minecraft,PS4,2014,Misc
+263,Asteroids,2600,1980,Shooter
+264,Call of Duty: Advanced Warfare,X360,2014,Shooter
+265,FIFA 15,PS3,2014,Sports
+266,Fable II,X360,2008,Role-Playing
+267,Namco Museum,GBA,2001,Misc
+268,Batman: Arkham Asylum,PS3,2009,Action
+269,Metal Gear Solid 3: Snake Eater,PS2,2004,Action
+270,Assassin's Creed: Revelations,PS3,2011,Action
+271,Fallout 4,XOne,2015,Role-Playing
+272,FIFA 14,X360,2013,Sports
+273,Daxter,PSP,2006,Platform
+274,Warcraft II: Tides of Darkness,PC,1995,Strategy
+275,FIFA Soccer 06,PS2,2005,Sports
+276,EyeToy Play,PS2,2003,Misc
+277,Gran Turismo 5 Prologue,PS3,2007,Racing
+278,Assassin's Creed: Revelations,X360,2011,Action
+279,FIFA 12,X360,2011,Sports
+280,Teenage Mutant Ninja Turtles,NES,1989,Action
+281,Street Fighter IV,PS3,2009,Fighting
+282,Excitebike,NES,1984,Racing
+283,Frogger,PS,1997,Action
+284,Madden NFL 2003,PS2,2002,Sports
+285,Half-Life,PC,1997,Shooter
+286,Super Mario World 2: Yoshi's Island,SNES,1995,Platform
+287,FIFA Soccer 07,PS2,2006,Sports
+288,Street Fighter II Turbo,SNES,1992,Fighting
+289,World of Warcraft: The Burning Crusade,PC,2007,Role-Playing
+290,Battlefield 1,PS4,2016,Shooter
+291,God of War II,PS2,2007,Action
+292,World Soccer Winning Eleven 9,PS2,2005,Sports
+293,Fallout: New Vegas,X360,2010,Role-Playing
+294,Forza Motorsport 2,X360,2007,Racing
+295,Carnival Games,Wii,2007,Misc
+296,Watch Dogs,PS4,2014,Action
+297,Namco Museum Vol.3,PS,1996,Misc
+298,Tekken Tag Tournament,PS2,2000,Fighting
+299,Far Cry 4,PS4,2014,Shooter
+300,Star Fox 64,N64,1997,Shooter
