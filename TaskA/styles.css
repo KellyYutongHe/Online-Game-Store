@@ -1,0 +1,171 @@
+* {
+	margin:0; 
+	padding:0;
+}
+body {
+	background:#14171b url(images/siteBackground.jpg) no-repeat center top;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#47494c;
+	font-size:10px;
+}
+a {
+	font-size:10px;
+	color:#c9d3e1; 
+	text-decoration:underline;
+}
+a:hover {
+	font-size:10px;
+	color:#c9d3e1; 
+	text-decoration:none;
+}
+.header {
+	height:88px;
+}
+.menu {
+	background:url(images/menuBackground.png) repeat-y left top;
+	padding:7px;
+}
+.menu ul {
+	margin:0;
+	padding:0;
+}
+.menu ul li {
+	padding:0 15px;
+}
+.menu ul li {
+	display:inline;
+	list-style:none;
+}
+.menu a {
+	font-size:14px;
+	color:#c9d3e1;
+	text-decoration:none;
+}
+.menu a:hover {
+	color:#FFFFFF;
+} 
+.menu .active a {
+	color:#FFFFFF
+}
+.logo {
+	float:left;
+	font-size:36px;
+	color:#c9d3e1;
+	font-style:italic;
+	padding:15px 0 0 0;
+}
+.logo span {
+	color:#6d6e70;
+}
+.author {
+	font-size:12px;
+}
+.author a {
+	font-size:12px;	
+}
+.search {
+	padding:35px 0 0 0;
+	float:right;
+	font-size:14px;
+	color:#FFFFFF;
+}
+.search img {
+	border:0;
+}
+.search .searchIcon {
+	float:left;
+	margin:-7px 0 0 0;
+}
+.search .searchButton {
+	float:right;
+}
+.userId{
+	text-align:right;
+	color:#CCCCCC;
+}
+.mainContainer {
+	width:800px;
+	margin:0 auto;
+	min-height:670px;
+}
+.shopList {
+	background:url(images/menuBackground.png) repeat-y left top;
+	margin:20px 0;
+}
+.shopList ul {
+	margin:0;
+	padding:0 0 0 4px;
+}
+.shopList li {
+	float:left;
+	list-style:none;
+	padding:10px 1px;
+	background: url(images/picBackground.png) no-repeat left top;
+	width:263px;
+	height:193px;
+	text-align:center;
+}
+.shopList li img {
+	border:0;
+	text-align:center;
+	padding:10px 0 0 0;
+}
+.shoesPic {
+	height:154px;
+}
+.shopListTitle {
+	font-size:12px;
+	color:#c9d3e1;
+	float:left;
+	padding:0 0 0 15px;
+}
+.shopListPrice {
+	font-size:12px;
+	float:right;
+	color:#FFFFFF;
+	padding:0 20px 0 0;
+}
+.shopList h2 {
+	font-size:14px;
+	color:#FFFFFF;
+	padding:10px;
+}
+.footer {
+	background:url(images/footerBackground.png) repeat-x left top;
+	height:63px;
+}
+.footerContainer {
+	width:800px;
+	margin:0 auto;
+}
+.icons {
+	float:left;
+	padding:15px 0 0 0;
+}
+.icons ul {
+	margin:0;
+	padding:0;
+}
+.icons ul li {
+	display:inline;
+	list-style:none;
+}
+.icons img {
+	border:0;
+}
+.copyright {
+	float:right;
+	padding:17px 0 0 0;
+	text-align:right;
+}
+.license {
+	width:800px;
+	margin:0 auto;
+	padding:10px 0;
+}
+.clearfloat {
+	clear:both;
+	font-size:1px;
+	height:0;
+	line-height:0;
+}

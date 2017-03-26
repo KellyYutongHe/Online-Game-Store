@@ -1,68 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
-
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>Home Page</title>
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Project 1 Milestone 3 - Online Video Game Store</title>
+<link href="styles.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-	<!-- Shared Contents -->
-	<header>
-		<h1>
-			<a href="index.html">
-				<img src="images/banner.png" alt="banner" width="100%" height="150">
-			</a>
-		</h1>
-
-		<nav>
-			<ul>
-				<li><a class="current" href="index.html">Home</a></li>
-				<li><a href="SignUp/index.html">My Account</a></li>
-				<li><a href="#">Xbox One</a></li>
-				<li><a href="#">PS4</a></li>
-				<li><a href="#">Nintendo</a></li>
-				<li><a href="#">Accessories</a></li>
-				<li><a href="#">Contact Us</a></li>
-			</ul>
-		</nav>
-
-		<h1>Online Video Gaming Store</h1>
-		<div><strong>Make Database Great Again!</strong></div>
-	</header>
-
-	<!-- Main Contents -->
-	<div class="container">
-	<article>
-
-
-		<p class="light-bg">Welcome to our video game store! We have a wide selections of products that includes consoles, videos games, and accessories.</p>
-		<p class="light-bg">Blah blah blah.</p>
-	</article>
-
-	<aside>
-		<h2>Developers</h2>
-		<ul>
-			<li>Thanh Kha</li>
-			<li>Yutong He</li>
-			<li>Zetian Xiao</li>
-			<li>Linxiao Bai</li>
-
-		</ul>
-
-		<div class="image-holder">
-			<img class="full img-frame" src="images/jason.jpg" alt="jason">
-		</div>
-
-	</aside>
-
-	<footer>
-		<p>Blah Blah Blah</p>
-		<div>©2016 Thanh Kha, Yutong He, Zetian Xiao, Linxiao Bai: CSC 261 Database Systems</div>
-	</footer>
-
-</div><!--.container-->
+<div class="mainContainer">
+	<div class="header">
+    	<div class="logo">
+        	VIDEO <span>GAMES</span><br />
+            <div class="author"></div>
+        </div>
+        <div class="search">
+        	<div class="searchIcon"><img src="images/searchIcon.png" alt="" /></div>SEARCH:<input name="" type="text" />
+            <div class="searchButton"><a href=""><img src="images/searchButton.png" alt="" /></a></div>
+        </div>
+    </div>
+    <div class="userId">
+        <a href="signup/start.html">Sign Up    </a>
+        <a href="checkout/start.html">Checkout    </a>
+        <a href="cart/start.html">Cart</a>
+    </div>    
+    <div class="menu">
+    	<ul>
+        	<li class="active"><a href="index.html">HOME</a></li>
+            <li><a href="#">PS4</a></li>
+            <li><a href="#">XBOX ONE</a></li>
+            <li><a href="#">NINTENDO</a></li>
+            <li><a href="products/start.html">PRODUCT LOOKUP</a></li>
+            <li><a href="#">ORDER HISTORY</a></li>
+            <li><a href="support/start.html">SUPPORT</a></li>
+        </ul>
+    </div>
+    <div  class="shopList">
+    	<h2>MAN SHOES CATALOG</h2>
+        <ul>
+        	<li>
+                <a href="">
+                <ins class="shoesPic"><img src="images/pic1.png" alt="" /></ins>
+                <ins>
+                    <ins class="shopListTitle">shoes name</ins>
+                    <ins class="shopListPrice">$44</ins>
+                </ins>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                <ins class="shoesPic"><img src="images/pic2.png" alt="" /></ins>
+                <ins>
+                    <ins class="shopListTitle">shoes name</ins>
+                    <ins class="shopListPrice">$44</ins>
+                </ins>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                <ins class="shoesPic"><img src="images/pic3.png" alt="" /></ins>
+                <ins>
+                    <ins class="shopListTitle">shoes name</ins>
+                    <ins class="shopListPrice">$44</ins>
+                </ins>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                <ins class="shoesPic"><img src="images/pic4.png" alt="" /></ins>
+                <ins>
+                    <ins class="shopListTitle">shoes name</ins>
+                    <ins class="shopListPrice">$44</ins>
+                </ins>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                <ins class="shoesPic"><img src="images/pic5.png" alt="" /></ins>
+                <ins>
+                    <ins class="shopListTitle">shoes name</ins>
+                    <ins class="shopListPrice">$44</ins>
+                </ins>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                <ins class="shoesPic"><img src="images/pic6.png" alt="" /></ins>
+                <ins>
+                    <ins class="shopListTitle">shoes name</ins>
+                    <ins class="shopListPrice">$44</ins>
+                </ins>
+                </a>
+            </li>
+        </ul>
+        <br class="clearfloat" />
+    </div>
+</div>
+<div class="footer">
+	<div class="footerContainer">
+    	<div class="icons">
+        	<ul>
+            	<li><a href=""><img src="images/facebookIcon.png" alt="" /></a></li>
+                <li><a href=""><img src="images/twitterIcon.png" alt="" /></a></li>
+            </ul>
+        </div>
+        <div class="copyright">
+        	Terms of Use |
+        <a title="This page validates as XHTML 1.0 Strict" href="#" class="footerLink"><abbr title="eXtensible HyperText Markup Language">XHTML</abbr></a> | 
+        <a title="This page validates as CSS" href="#" class="footerLink"><abbr title="Cascading Style Sheets">CSS</abbr></a><br />Copyright &copy; 2011 SHOES STORE. Collect from <a href="http://www.cssmoban.com/" title="Free Templates">Free Templates</a> | Best <a href="http://www.cssmoban.com/" title="模板之家" target="_blank">模板之家</a> from www.cssmoban.com
+        </div>
+    </div>
+</div>
+<div class="license">
+	<p>
+    	<b>All website template is released under a Creative Commons Attribution 2.5 License</b><br /><br />
+        We request you retain the full copyright notice below including the link to . This not only gives respect to the large amount of time given freely by the developers but also helps build interest, traffic and use of our free and paid designs. If you cannot (for good reason) retain the full copyright we request you at least leave in place the Website Templates line, with Website Templates linked to . If you refuse to include even this then support may be affected.<br /><br />
+        <b>You are allowed to use this design only if you agree to the following conditions:</b><br />
+        - You can not remove copyright notice from any our template without our permission.<br />
+        - If you modify any our template it still should contain copyright because it is based on our work.<br />
+        - You may copy, distribute, modify, etc. any our template as long as link to our website remains untouched.<br /><br />
+        For support please visit 
+    </p>
+</div>
 </body>
 </html>
