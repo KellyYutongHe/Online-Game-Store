@@ -1,0 +1,306 @@
+Id,Name,Publisher,Price,Stock,Sales,Rating,DID
+1,Wii Sports,Nintendo,50,420,110,5,1
+2,Super Mario Bros.,Nintendo,33.02,158,335,1,1
+3,Mario Kart Wii,Nintendo,28.98,343,10,2,1
+4,Wii Sports Resort,Nintendo,42.37,256,142,1,1
+5,Pokemon Red/Pokemon Blue,Nintendo,42.1,441,114,3,1
+6,Tetris,Nintendo,23.46,433,445,1,1
+7,New Super Mario Bros.,Nintendo,45.96,468,134,2,1
+8,Wii Play,Nintendo,31.71,346,56,5,1
+9,New Super Mario Bros. Wii,Nintendo,27.61,417,276,4,1
+10,Duck Hunt,Nintendo,21.35,289,447,2,1
+11,Nintendogs,Nintendo,21.82,300,63,5,1
+12,Mario Kart DS,Nintendo,46.38,291,20,5,1
+13,Pokemon Gold/Pokemon Silver,Nintendo,35.3,153,124,5,1
+14,Wii Fit,Nintendo,44.85,125,210,1,1
+15,Kinect Adventures!,Microsoft Game Studios,33.81,86,404,3,1
+16,Wii Fit Plus,Nintendo,41.06,135,88,5,1
+17,Grand Theft Auto V,Take-Two Interactive,40.41,105,197,4,1
+18,Grand Theft Auto: San Andreas,Take-Two Interactive,40.92,45,260,5,1
+19,Super Mario World,Nintendo,33.67,100,17,2,1
+20,Brain Age: Train Your Brain in Minutes a Day,Nintendo,20.72,89,454,5,1
+21,Pokemon Diamond/Pokemon Pearl,Nintendo,43.64,149,137,5,1
+22,Super Mario Land,Nintendo,26.46,242,292,4,1
+23,Super Mario Bros. 3,Nintendo,35.15,213,454,4,1
+24,Grand Theft Auto V,Take-Two Interactive,45.14,145,214,2,1
+25,Grand Theft Auto: Vice City,Take-Two Interactive,39.8,350,156,5,1
+26,Pokemon Ruby/Pokemon Sapphire,Nintendo,41.16,156,63,3,1
+27,Brain Age 2: More Training in Minutes a Day,Nintendo,44.43,303,248,4,1
+28,Pokemon Black/Pokemon White,Nintendo,24.05,351,445,2,1
+29,Gran Turismo 3: A-Spec,Sony Computer Entertainment,33.42,361,256,5,1
+30,Call of Duty: Modern Warfare 3,Activision,32.48,93,476,1,1
+31,Pokemon Yellow: Special Pikachu Edition,Nintendo,43.11,345,53,4,1
+32,Call of Duty: Black Ops 3,Activision,49.03,154,241,2,1
+33,Call of Duty: Black Ops,Activision,43.86,427,302,3,1
+34,Pokemon X/Pokemon Y,Nintendo,49.68,10,442,3,1
+35,Call of Duty: Black Ops II,Activision,33.4,335,421,4,1
+36,Call of Duty: Black Ops II,Activision,49.59,303,187,3,1
+37,Call of Duty: Modern Warfare 2,Activision,45.84,493,306,4,1
+38,Call of Duty: Modern Warfare 3,Activision,25.96,184,318,5,1
+39,Grand Theft Auto III,Take-Two Interactive,24.66,337,228,3,1
+40,Super Smash Bros. Brawl,Nintendo,48.96,411,368,3,1
+41,Mario Kart 7,Nintendo,25.7,404,390,4,1
+42,Call of Duty: Black Ops,Activision,30.85,198,80,5,1
+43,Grand Theft Auto V,Take-Two Interactive,22.56,102,255,4,1
+44,Animal Crossing: Wild World,Nintendo,34.9,387,167,3,1
+45,Halo 3,Microsoft Game Studios,47.19,152,284,3,1
+46,Super Mario 64,Nintendo,48.56,341,347,2,1
+47,Pokemon HeartGold/Pokemon SoulSilver,Nintendo,23.71,272,349,5,1
+48,Pokemon Omega Ruby/Pokemon Alpha Sapphire,Nintendo,41.82,16,450,4,1
+49,Gran Turismo 4,Sony Computer Entertainment,31.01,63,355,5,1
+50,Super Mario Galaxy,Nintendo,40.63,165,264,3,1
+51,Super Mario Land 2: 6 Golden Coins,Nintendo,48.29,16,455,1,1
+52,Grand Theft Auto IV,Take-Two Interactive,47.96,423,317,3,1
+53,Gran Turismo,Sony Computer Entertainment,23.72,435,118,5,1
+54,Super Mario 3D Land,Nintendo,48.38,175,403,1,1
+55,Gran Turismo 5,Sony Computer Entertainment,46.66,254,170,1,1
+56,Call of Duty: Modern Warfare 2,Activision,44.98,18,456,4,1
+57,Super Mario All-Stars,Nintendo,32.64,427,366,3,1
+58,Grand Theft Auto IV,Take-Two Interactive,20.98,31,206,5,1
+59,Pokemon FireRed/Pokemon LeafGreen,Nintendo,40.81,270,259,2,1
+60,Super Mario 64,Nintendo,37.19,178,308,2,1
+61,Call of Duty: Ghosts,Activision,47.57,68,221,3,1
+62,Just Dance 3,Ubisoft,48.89,278,473,4,1
+63,New Super Mario Bros. 2,Nintendo,33.75,297,198,3,1
+64,Mario Kart 64,Nintendo,25.5,218,232,3,1
+65,Halo: Reach,Microsoft Game Studios,38.66,397,398,2,1
+66,Final Fantasy VII,Sony Computer Entertainment,28.99,169,398,1,1
+67,Halo 4,Microsoft Game Studios,20.16,108,403,4,1
+68,Gran Turismo 2,Sony Computer Entertainment,36.73,197,489,2,1
+69,Just Dance 2,Ubisoft,42.31,400,219,5,1
+70,Call of Duty: Ghosts,Activision,23.88,416,443,5,1
+71,Call of Duty 4: Modern Warfare,Activision,40.94,159,121,3,1
+72,Donkey Kong Country,Nintendo,22.79,29,148,3,1
+73,Minecraft,Microsoft Game Studios,20.58,68,34,4,1
+74,Animal Crossing: New Leaf,Nintendo,33.09,75,248,2,1
+75,Mario Party DS,Nintendo,20.25,285,367,5,1
+76,The Elder Scrolls V: Skyrim,Bethesda Softworks,42.67,179,305,3,1
+77,Super Mario Kart,Nintendo,33.1,345,211,5,1
+78,FIFA 16,Electronic Arts,37.11,372,61,5,1
+79,Halo 2,Microsoft Game Studios,34.3,0,4,4,1
+80,Wii Party,Nintendo,23.76,82,121,5,1
+81,Mario Party 8,Nintendo,47.85,464,79,4,1
+82,FIFA Soccer 13,Electronic Arts,44.91,362,422,4,1
+83,GoldenEye 007,Nintendo,39.45,405,329,4,1
+84,Pokemon Black 2/Pokemon White 2,Nintendo,40.37,468,449,3,1
+85,Final Fantasy X,Sony Computer Entertainment,25.71,465,105,2,1
+86,The Sims 3,Electronic Arts,39.88,304,402,3,1
+87,Mario & Sonic at the Olympic Games,Sega,20.6,225,271,4,1
+88,Star Wars Battlefront (2015),Electronic Arts,41.76,446,361,5,1
+89,Final Fantasy VIII,SquareSoft,40.17,326,497,1,1
+90,Pac-Man,Atari,33.98,92,64,1,1
+91,Pokémon Platinum Version,Nintendo,32.38,227,89,5,1
+92,Grand Theft Auto: Liberty City Stories,Take-Two Interactive,26.18,14,360,3,1
+93,Call of Duty: Advanced Warfare,Activision,33.3,364,489,4,1
+94,The Legend of Zelda: Ocarina of Time,Nintendo,22.89,141,75,3,1
+95,FIFA 17,Electronic Arts,28.76,274,162,3,1
+96,Crash Bandicoot 2: Cortex Strikes Back,Sony Computer Entertainment,21.5,446,279,2,1
+97,Super Smash Bros. for Wii U and 3DS,Nintendo,49.69,337,73,2,1
+98,Super Mario Galaxy 2,Nintendo,25.86,207,272,3,1
+99,Super Mario Bros. 2,Nintendo,41.24,496,200,3,1
+100,Call of Duty: Black Ops 3,Activision,42.9,204,384,4,1
+101,Call of Duty: World at War,Activision,20.75,106,124,4,1
+102,Battlefield 3,Electronic Arts,37.5,445,173,2,1
+103,Need for Speed Underground,Electronic Arts,42.4,122,241,1,1
+104,Just Dance,Ubisoft,47.52,114,189,1,1
+105,Battlefield 3,Electronic Arts,33.21,311,335,1,1
+106,Fallout 4,Bethesda Softworks,32.8,144,70,2,1
+107,Tekken 3,Sony Computer Entertainment,27.29,457,395,4,1
+108,The Legend of Zelda: Twilight Princess,Nintendo,42.57,245,181,1,1
+109,Pokemon Sun/Moon,Nintendo,34.73,34,366,4,1
+110,Crash Bandicoot 3: Warped,Sony Computer Entertainment,39.05,50,26,5,1
+111,Mario Kart 8,Nintendo,20.61,354,82,3,1
+112,Super Smash Bros. Melee,Nintendo,45.44,185,232,4,1
+113,Mario Kart: Double Dash!!,Nintendo,31.27,252,364,1,1
+114,Need for Speed Underground 2,Electronic Arts,32.04,402,98,5,1
+115,Medal of Honor: Frontline,Electronic Arts,35.47,32,305,1,1
+116,Crash Bandicoot,Sony Computer Entertainment,25.24,157,348,3,1
+117,Just Dance 4,Ubisoft,29.66,494,280,4,1
+118,Gears of War 2,Microsoft Game Studios,26.8,53,232,5,1
+119,Uncharted 3: Drake's Deception,Sony Computer Entertainment,28.93,353,123,5,1
+120,Zumba Fitness,505 Games,29.56,345,55,5,1
+121,Call of Duty 4: Modern Warfare,Activision,35.13,212,217,4,1
+122,Uncharted 2: Among Thieves,Sony Computer Entertainment,37.66,130,380,1,1
+123,FIFA 12,Electronic Arts,26.96,436,48,4,1
+124,Big Brain Academy,Nintendo,44.21,430,80,1,1
+125,The Legend of Zelda,Nintendo,33.76,315,136,1,1
+126,Red Dead Redemption,Take-Two Interactive,27.46,483,179,5,1
+127,FIFA 14,Electronic Arts,30.72,217,7,2,1
+128,Assassin's Creed III,Ubisoft,43.85,26,143,2,1
+129,Donkey Kong Country Returns,Nintendo,49.05,10,37,3,1
+130,Halo: Combat Evolved,Microsoft Game Studios,26.2,468,79,5,1
+131,The Elder Scrolls V: Skyrim,Bethesda Softworks,25.14,65,366,4,1
+132,Pokémon Emerald Version,Nintendo,25.03,128,101,3,1
+133,Kingdom Hearts,Sony Computer Entertainment,31.49,381,317,4,1
+134,Pokémon Crystal Version,Nintendo,39.9,332,463,4,1
+135,Halo 3: ODST,Microsoft Game Studios,22.8,261,89,5,1
+136,Red Dead Redemption,Take-Two Interactive,44.54,411,168,4,1
+137,Super Mario Sunshine,Nintendo,26.39,160,169,4,1
+138,Street Fighter II: The World Warrior,Capcom,33.11,190,308,1,1
+139,World of Warcraft,Activision,43.79,486,218,1,1
+140,Driver,GT Interactive,35.9,135,206,1,1
+141,Gears of War 3,Microsoft Game Studios,37.39,494,486,2,1
+142,Kinect Sports,Microsoft Game Studios,38.73,6,249,3,1
+143,Gears of War,Microsoft Game Studios,49.35,117,358,4,1
+144,FIFA 15,Electronic Arts,41.38,332,356,2,1
+145,Metal Gear Solid 2: Sons of Liberty,Konami Digital Entertainment,31.72,207,223,5,1
+146,Sonic the Hedgehog 2,Sega,41.94,278,94,1,1
+147,Metal Gear Solid,Konami Digital Entertainment,42.92,208,195,2,1
+148,Metal Gear Solid 4: Guns of the Patriots,Konami Digital Entertainment,39.75,370,439,5,1
+149,Final Fantasy XII,Square Enix,35.76,45,335,5,1
+150,The Last of Us,Sony Computer Entertainment Europe,35,376,362,4,1
+151,LittleBigPlanet,Sony Computer Entertainment,39.91,473,198,5,1
+152,Resident Evil 2,Virgin Interactive,22.49,166,260,1,1
+153,Dragon Quest IX: Sentinels of the Starry Skies,Nintendo,22.32,163,123,4,1
+154,Tekken 2,Sony Computer Entertainment,33.4,323,51,1,1
+155,Destiny,Activision,32.33,38,62,5,1
+156,LEGO Star Wars: The Complete Saga,LucasArts,27.38,439,10,3,1
+157,Cooking Mama,505 Games,20.6,61,202,2,1
+158,Tetris,Nintendo,31.69,40,416,1,1
+159,Super Smash Bros.,Nintendo,35.06,196,346,4,1
+160,Assassin's Creed II,Ubisoft,29.22,237,443,1,1
+161,Assassin's Creed,Ubisoft,33.32,254,53,4,1
+162,Forza Motorsport 3,Microsoft Game Studios,46.59,195,414,2,1
+163,Super Mario Advance,Nintendo,26.75,47,102,5,1
+164,Monster Hunter Freedom Unite,Capcom,39.6,327,29,1,1
+165,Batman: Arkham City,Warner Bros. Interactive Entertainment,49.85,372,401,2,1
+166,Grand Theft Auto V,Take-Two Interactive,40.98,112,114,2,1
+167,Mario Kart: Super Circuit,Nintendo,38.05,426,215,5,1
+168,Super Mario World,Nintendo,26.5,203,47,2,1
+169,Pokemon Stadium,Nintendo,36.1,471,408,2,1
+170,Crash Bandicoot: The Wrath of Cortex,Universal Interactive,35.04,205,27,1,1
+171,Call of Duty: World at War,Activision,41.14,239,50,2,1
+172,Uncharted 4: A Thief's End,Sony Computer Entertainment,47.64,401,395,2,1
+173,Dr. Mario,Nintendo,49.75,137,313,4,1
+174,Final Fantasy XIII,Square Enix,39.62,123,198,3,1
+175,Pokemon Pinball,Nintendo,39.97,215,20,4,1
+176,Final Fantasy IX,SquareSoft,41.87,149,173,1,1
+177,Assassin's Creed III,Ubisoft,48.39,431,382,1,1
+178,Final Fantasy X-2,Electronic Arts,31.37,429,364,1,1
+179,Donkey Kong 64,Nintendo,45.55,171,21,1,1
+180,Call of Duty: Advanced Warfare,Activision,35.07,233,102,5,1
+181,Minecraft,Sony Computer Entertainment,45.02,300,362,3,1
+182,Assassin's Creed II,Ubisoft,25.65,167,232,1,1
+183,Tomb Raider II,Eidos Interactive,27.39,51,448,1,1
+184,Madden NFL 2004,Electronic Arts,49.05,31,388,2,1
+185,Tomodachi Life,Nintendo,49.7,181,467,4,1
+186,New Super Mario Bros. U,Nintendo,29.63,350,10,3,1
+187,Dragon Quest VIII: Journey of the Cursed King,Square Enix,22.91,15,127,2,1
+188,Super Mario Bros. 3,Nintendo,45.05,200,388,5,1
+189,Professor Layton and the Curious Village,Nintendo,35.85,369,414,2,1
+190,Super Mario Land 3: Wario Land,Nintendo,47.5,11,314,1,1
+191,FIFA Soccer 13,Electronic Arts,41.01,487,210,5,1
+192,Donkey Kong Country 2: Diddy's Kong Quest,Nintendo,26.04,204,466,2,1
+193,Diablo III,Activision,28.42,169,315,3,1
+194,Medal of Honor: Rising Sun,Electronic Arts,37.77,488,201,3,1
+195,Kirby's Dream Land,Nintendo,37.41,291,306,4,1
+196,Microsoft Flight Simulator,Microsoft Game Studios,28.78,448,185,5,1
+197,Guitar Hero II,RedOctane,22.91,124,436,1,1
+198,Fable III,Microsoft Game Studios,37.26,332,212,4,1
+199,Mario & Sonic at the Olympic Games,Sega,21.6,222,367,3,1
+200,Resident Evil 5,Capcom,38.27,78,199,4,1
+201,The Legend of Zelda: Phantom Hourglass,Nintendo,39.87,210,463,4,1
+202,Super Mario Bros.,Nintendo,43.96,375,138,3,1
+203,FIFA Soccer 11,Electronic Arts,40.23,219,313,1,1
+204,Resident Evil,Virgin Interactive,35.18,220,467,3,1
+205,Grand Theft Auto: Vice City Stories,Take-Two Interactive,30.87,461,47,5,1
+206,Tony Hawk's Pro Skater,Activision,36.42,172,34,1,1
+207,Warzone 2100,Eidos Interactive,23.83,394,202,1,1
+208,Spyro the Dragon,Sony Computer Entertainment,40.5,16,240,1,1
+209,Guitar Hero III: Legends of Rock,Activision,25.3,182,94,1,1
+210,Link's Crossbow Training,Nintendo,27.89,58,291,5,1
+211,Pokemon Mystery Dungeon: Explorers of Time/Explorers of Darkness,Nintendo,21.38,259,429,4,1
+212,Fallout 3,Bethesda Softworks,32.28,430,325,5,1
+213,Uncharted: Drake's Fortune,Sony Computer Entertainment,26.74,121,82,1,1
+214,Madden NFL 06,Electronic Arts,47.49,445,106,5,1
+215,Diddy Kong Racing,Nintendo,28.06,412,342,2,1
+216,Monster Hunter Freedom 3,Capcom,34.98,366,334,1,1
+217,Super Smash Bros. for Wii U and 3DS,Nintendo,32.24,197,372,4,1
+218,Dr. Mario,Nintendo,37.72,332,485,4,1
+219,StarCraft II: Wings of Liberty,Activision,43.27,473,289,2,1
+220,Assassin's Creed,Ubisoft,41.7,230,82,5,1
+221,God of War III,Sony Computer Entertainment,41.47,400,382,1,1
+222,Crash Team Racing,Sony Computer Entertainment,41.97,454,449,5,1
+223,LEGO Star Wars: The Complete Saga,LucasArts,20.59,489,120,4,1
+224,Driver 2,Atari,27.08,29,237,2,1
+225,Batman: Arkham City,Warner Bros. Interactive Entertainment,24.44,202,232,4,1
+226,The Last of Us,Sony Computer Entertainment,24.56,194,423,1,1
+227,The Simpsons: Hit & Run,Vivendi Games,29.8,96,390,2,1
+228,Tony Hawk's Pro Skater 2,Activision,44.1,46,142,2,1
+229,The Lord of the Rings: The Two Towers,Electronic Arts,49.92,481,215,3,1
+230,Tomb Raider,Eidos Interactive,47.27,176,219,5,1
+231,Animal Crossing: City Folk,Nintendo,44.93,118,38,3,1
+232,Uncharted: The Nathan Drake Collection,Sony Computer Entertainment,21.52,415,179,5,1
+233,The Legend of Zelda: A Link to the Past,Nintendo,27.24,382,357,2,1
+234,The Legend of Zelda: The Wind Waker,Nintendo,49.48,12,365,1,1
+235,Guitar Hero III: Legends of Rock,Activision,39.9,312,410,3,1
+236,Luigi's Mansion: Dark Moon,Nintendo,45.41,29,196,1,1
+237,Forza Motorsport 4,Microsoft Game Studios,30.81,354,488,5,1
+238,Mario & Sonic at the Olympic Winter Games,Sega,20.33,136,83,5,1
+239,Madden NFL 2005,Electronic Arts,35.65,462,497,2,1
+240,Guitar Hero III: Legends of Rock,Activision,28.77,401,398,3,1
+241,Pitfall!,Activision,36.01,88,69,4,1
+242,Madden NFL 07,Electronic Arts,40.93,415,228,5,1
+243,Halo 5: Guardians,Microsoft Game Studios,21.4,199,136,2,1
+244,Spider-Man: The Movie,Activision,24.31,59,460,5,1
+245,Dragon Quest VII: Warriors of Eden,Enix Corporation,24.55,487,313,2,1
+246,Call of Duty: Infinite Warfare,Activision,20.8,85,96,1,1
+247,God of War,Sony Computer Entertainment,47.91,71,483,5,1
+248,Splatoon,Nintendo,36.53,461,66,1,1
+249,Nintendo Land,Nintendo,34.8,229,376,3,1
+250,Tony Hawk's Pro Skater 3,Activision,47.94,396,412,4,1
+251,Winning Eleven: Pro Evolution Soccer 2007,Konami Digital Entertainment,24.67,33,114,2,1
+252,The Elder Scrolls IV: Oblivion,Take-Two Interactive,44.26,167,165,4,1
+253,Zelda II: The Adventure of Link,Nintendo,44.37,225,328,1,1
+254,Need for Speed: Most Wanted,Electronic Arts,26.22,49,429,3,1
+255,Michael Jackson: The Experience,Ubisoft,28.33,129,140,2,1
+256,Call of Duty: Advanced Warfare,Activision,39.84,273,31,3,1
+257,Resistance: Fall of Man,Sony Computer Entertainment,37.77,239,174,4,1
+258,Sonic the Hedgehog,Sega,38.62,90,468,2,1
+259,Kingdom Hearts II,Square Enix,48.14,315,235,3,1
+260,The Legend of Zelda: Ocarina of Time,Nintendo,42.16,38,444,1,1
+261,Super Mario 3D World,Nintendo,35.11,80,40,1,1
+262,Minecraft,Sony Computer Entertainment Europe,40.84,235,0,1,1
+263,Asteroids,Atari,30.22,277,462,4,1
+264,Call of Duty: Advanced Warfare,Activision,46.34,20,314,2,1
+265,FIFA 15,Electronic Arts,29.51,330,92,3,1
+266,Fable II,Microsoft Game Studios,32.89,232,97,4,1
+267,Namco Museum,Namco Bandai Games,46.07,367,42,3,1
+268,Batman: Arkham Asylum,Eidos Interactive,28.07,302,20,4,1
+269,Metal Gear Solid 3: Snake Eater,Konami Digital Entertainment,42.88,228,477,5,1
+270,Assassin's Creed: Revelations,Ubisoft,43.79,142,488,4,1
+271,Fallout 4,Bethesda Softworks,48.26,104,226,2,1
+272,FIFA 14,Electronic Arts,36.59,172,47,2,1
+273,Daxter,Sony Computer Entertainment,32.38,91,340,4,1
+274,Warcraft II: Tides of Darkness,Activision,31.24,282,320,5,1
+275,FIFA Soccer 06,Electronic Arts,36.26,372,306,5,1
+276,EyeToy Play,Sony Computer Entertainment,40.08,453,156,1,1
+277,Gran Turismo 5 Prologue,Sony Computer Entertainment,38.72,396,334,4,1
+278,Assassin's Creed: Revelations,Ubisoft,23.38,373,339,2,1
+279,FIFA 12,Electronic Arts,48.29,89,140,3,1
+280,Teenage Mutant Ninja Turtles,Palcom,38.19,148,475,1,1
+281,Street Fighter IV,Capcom,44.2,221,350,1,1
+282,Excitebike,Nintendo,39.68,234,436,3,1
+283,Frogger,Hasbro Interactive,40.47,10,147,2,1
+284,Madden NFL 2003,Electronic Arts,31,94,160,4,1
+285,Half-Life,Vivendi Games,47.63,370,310,3,1
+286,Super Mario World 2: Yoshi's Island,Nintendo,23.87,294,30,3,1
+287,FIFA Soccer 07,Electronic Arts,20.41,320,341,4,1
+288,Street Fighter II Turbo,Capcom,21.9,243,443,3,1
+289,World of Warcraft: The Burning Crusade,Activision,21.48,87,88,1,1
+290,Battlefield 1,Electronic Arts,49.9,395,347,1,1
+291,God of War II,Sony Computer Entertainment,32.97,57,215,1,1
+292,World Soccer Winning Eleven 9,Konami Digital Entertainment,45.13,239,350,5,1
+293,Fallout: New Vegas,Bethesda Softworks,44.53,449,242,5,1
+294,Forza Motorsport 2,Microsoft Game Studios,45.36,126,466,5,1
+295,Carnival Games,Take-Two Interactive,31.9,263,185,2,1
+296,Watch Dogs,Ubisoft,26.74,132,414,3,1
+297,Namco Museum Vol.3,Sony Computer Entertainment,25.82,265,420,4,1
+298,Tekken Tag Tournament,Namco Bandai Games,41.74,209,448,2,1
+299,Far Cry 4,Ubisoft,45.36,351,346,5,1
+300,Star Fox 64,Nintendo,37.72,476,95,3,1
+301,PS4,Sony Computer Entertainment,299,1000,2000,5,1
+302,XBOX1,Microsoft Game Studios,299,50,200,3,1
+303,Nintendo Switch,Nintendo,299,2000,1000,5,1
+304,Super Gamepad,Nintendo,50,300,300,4,1
+305,Super VR,Nintendo,200,200,500,3,1
