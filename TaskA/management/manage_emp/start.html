@@ -39,7 +39,7 @@
             <li><a href="#">NINTENDO</a></li>
             <li><a href="#">ACCESSORIES</a></li>
             <li><a href="../../products/start.html">PRODUCT LOOKUP</a></li>
-            <li><a href="start.html">SUPPORT</a></li>
+            <li><a href="../../support/start.html">SUPPORT</a></li>
             <li><a href="../../management/start.html">System Management</a></li>
         </ul>
     </div><!-- End of menu -->
@@ -53,6 +53,61 @@
             <li><a href="../inv_update/start.html"><font size="4" color="white">Inventory Update</font></a></li>
         </ul>
     </div> <!-- End of list of Supports -->
+
+
+
+    <div>
+        <div class="form_content">
+        <form id="test" action="#" method="get">
+        <fieldset>
+            <legend>Employee Update</legend>
+            
+            <div class="form-row">
+                <div class="field-label"><label for="field2">Employee's ID</label>:</div>
+                <div class="field-widget"><input name="field2" id="field2" class="required" title="Enter your name" /></div>
+            </div>
+            <div class="form-row">
+                <div class="field-label"><label for="field1">Set Name</label>:</div>
+                <div class="field-widget"><input name="field1" id="field1" class="required" title="Enter your name" /></div>
+            </div>
+            <div class="form-row">
+                <div class="field-label"><label for="field3">Set Departments</label>:</div>
+                <div class="field-widget"><input name="field3" id="field3" class="required" title="Enter your name" /></div>
+            </div>
+
+            <div class="form-row">
+                <div class="field-label"><label for="field4">Set Location</label>:</div>
+                <div class="field-widget"><input name="field4" id="field4" class="required" title="Enter your name" /></div>
+            </div>
+            
+            
+        </fieldset>
+        
+        
+        <input type="submit" class="submit" value="Submit"/> 
+        </form>
+        </div> 
+        
+        <script type="text/javascript">
+            function formCallback(result, form) {
+                window.status = "valiation callback for form '" + form.id + "': result = " + result;
+            }
+            
+            var valid = new Validation('test', {immediate : true, onFormValidate : formCallback});
+            Validation.addAllThese([
+                ['validate-password', '> 6 characters', {
+                    minLength : 7,
+                    notOneOf : ['password','PASSWORD','1234567','0123456'],
+                    notEqualToField : 'field1'
+                }],
+                ['validate-password-confirm', 'please try again.', {
+                    equalToField : 'field8'
+                }]
+            ]);
+        </script>
+    </div>  <!-- End of form contents -->
+
+
 
 <div class="footer">
     <div class="footerContainer">
