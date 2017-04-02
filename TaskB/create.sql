@@ -18,6 +18,12 @@ create table customer(
   privilege int
 );
 
+create table department(
+  id int primary key,
+  name varchar(20),
+  phone int
+);
+
 create table employee(
   id int primary key,
   name varchar(30),
@@ -25,34 +31,14 @@ create table employee(
   dept int,
   phone int,
   SID int,
-  foreign key(SID) references emplyee(id)
-  on update cascade on delete set null,
   foreign key(dept) references department(id)
   on update cascade on delete set null
 );
 
-create table department(
-  id int primary key,
-  name varchar(20),
-  phone int
-);
-
 create table company(
-  id int primay key,
+  id int primary key,
   name varchar(30),
   country varchar(20)
-);
-
-create table transaction(
-  id int primary key,
-  cusID int,
-  proID int,
-  rating int,
-  date dateTime,
-  foreign key(cusID) references customer(id)
-  on update cascade on delete cascade,
-  foreign key(cusID) references customer(id)
-  on update set null on delete set null
 );
 
 create table product(
@@ -95,4 +81,16 @@ create table accessory(
   category varchar(30),
   foreign key(id) references product(id)
   on update cascade on delete cascade
+);
+
+create table transaction(
+  id int primary key,
+  cusID int,
+  proID int,
+  rating int,
+  date dateTime,
+  foreign key(cusID) references customer(id)
+  on update cascade on delete cascade,
+  foreign key(proID) references product(id)
+  on update set null on delete set null
 );
