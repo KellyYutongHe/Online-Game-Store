@@ -51,9 +51,9 @@ create table product(
   rating float,
   DID int default 1,
   foreign key(companyID) references company(id)
-  on update cascade on delete set default,
+  on update cascade on delete set null,
   foreign key(DID) references department(id)
-  on update cascade on delete set default
+  on update cascade on delete set null
 );
 
 create table game(
