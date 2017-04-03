@@ -44,7 +44,7 @@ create table company(
 
 create table product(
   id int primary key,
-  name varchar(30),
+  name varchar(500),
   companyID varchar(500),
   price decimal(10,2),
   stock int,
@@ -59,9 +59,10 @@ create table product(
 
 create table game(
   id int primary key,
-  name varchar(30),
-  platform varchar(30),
-  genre varchar(30),
+  name varchar(500),
+  platform varchar(500),
+  year int,
+  genre varchar(500),
   foreign key(id) references product(id)
   on update cascade on delete cascade
 );
