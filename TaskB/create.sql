@@ -38,14 +38,14 @@ create table employee(
 
 create table company(
   id int primary key,
-  name varchar(50) unique,
+  name varchar(500) unique,
   country varchar(20)
 );
 
 create table product(
   id int primary key,
   name varchar(30),
-  companyID varchar(50),
+  companyID varchar(500),
   price decimal(10,2),
   stock int,
   sales int,
