@@ -21,7 +21,7 @@ create table customer(
 
 create table department(
   id int primary key,
-  name varchar(512),
+  name varchar(100),
   phone int
 );
 
@@ -31,21 +31,21 @@ create table employee(
   salary decimal(10,2),
   dept int,
   phone int,
-  SID int,
+  SID int default NULL,
   foreign key(dept) references department(id)
   on update cascade on delete set null
 );
 
 create table company(
   id int primary key,
-  name varchar(500) unique,
+  name varchar(100) unique,
   country varchar(20)
 );
 
 create table product(
   id int primary key,
-  name varchar(500),
-  companyID varchar(500),
+  name varchar(100),
+  companyID varchar(100),
   price decimal(10,2),
   stock int,
   sales int,
@@ -59,20 +59,20 @@ create table product(
 
 create table game(
   id int primary key,
-  name varchar(500),
-  platform varchar(500),
+  name varchar(100),
+  platform varchar(100),
   year int,
-  genre varchar(500),
+  genre varchar(100),
   foreign key(id) references product(id)
   on update cascade on delete cascade
 );
 
 create table console(
   id int primary key,
-  name varchar(30),
-  platform varchar(30),
-  color varchar(20),
-  memory varchar(10),
+  name varchar(100),
+  platform varchar(100),
+  color varchar(100),
+  memory varchar(100),
   foreign key(id) references product(id)
   on update cascade on delete cascade
 );
