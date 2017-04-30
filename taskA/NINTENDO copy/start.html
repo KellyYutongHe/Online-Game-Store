@@ -27,11 +27,11 @@
 
     <div class="userId">
         <a href="../signup/start.html">Sign Up    </a>
-        <a href="start.html">Checkout    </a>
+        <a href="../checkout/start.html">Checkout    </a>
         <a href="../cart/start.html">Cart</a>
     </div> <!-- End of userID -->
 
-     <div class="menu">
+    <div class="menu">
         <ul>
             <li><a href="../index.html">HOME</a></li>
             <li><a href="../PlayStation/start.html">PlayStation</a></li>
@@ -39,7 +39,7 @@
             <li><a href="../NINTENDO/start.html">NINTENDO</a></li>
             <li><a href="../accessories/start.html">ACCESSORIES</a></li>
             <li><a href="../PC/start.html">PC</a></li>
-            <li><a href="../rewards/start.html">REWARDS</a></li>  
+            <li class="active"><a href="start.html">REWARDS</a></li>           
         </ul>
         <ul>
             <li><a href="../products/start.html">PRODUCT LOOKUP</a></li>
@@ -49,62 +49,6 @@
 
 
     </div><!-- End of menu -->
-
-
-    <div>
-        <div class="form_content">
-        <form id="test" action="#" method="get">
-        <fieldset>
-            <legend>Checkout</legend>
-            <div class="form-row">
-                <div class="field-label"><label for="field1">Product Information</label>:</div>
-                <div class="field-widget"><input name="field1" id="field1" class="required" title="Enter your name" /></div>
-            </div>
-            
-            <div class="form-row">
-                <div class="field-label"><label for="field2">Shipping Address</label>:</div>
-                <div class="field-widget"><input name="field2" id="field2" class="required" title="Enter your name" /></div>
-            </div>
-            <div class="form-row">
-                <div class="field-label"><label for="field3">Card Number</label>:</div>
-                <div class="field-widget"><input name="field3" id="field3" class="required" title="Enter your name" /></div>
-            </div>
-
-            <div class="form-row">
-                <div class="field-label"><label for="field4">Name on the Card</label>:</div>
-                <div class="field-widget"><input name="field4" id="field4" class="required" title="Enter your name" /></div>
-            </div>
-            <div class="form-row">
-                <div class="field-label"><label for="field5">Expiration Date(dd/mm/yy)</label>:</div>
-                <div class="field-widget"><input name="field5" id="field5" class="required" title="Enter your name" /></div>
-            </div>
-
-            <div class="form-row">
-                <div class="field-label"><label for="field6">CSV</label>:</div>
-                <div class="field-widget"><input name="field6" id="field6" class="required" title="Enter your name" /></div>
-            </div>
-        </fieldset>
-        <input type="submit" class="submit" value="Checkout"/> 
-        </form>
-        </div> <!-- End of form contents -->
-        <script type="text/javascript">
-            function formCallback(result, form) {
-                window.status = "valiation callback for form '" + form.id + "': result = " + result;
-            }
-            
-            var valid = new Validation('test', {immediate : true, onFormValidate : formCallback});
-            Validation.addAllThese([
-                ['validate-password', '> 6 characters', {
-                    minLength : 7,
-                    notOneOf : ['password','PASSWORD','1234567','0123456'],
-                    notEqualToField : 'field1'
-                }],
-                ['validate-password-confirm', 'please try again.', {
-                    equalToField : 'field8'
-                }]
-            ]);
-        </script>
-    </div>  <!-- End of form contents -->
 
 <div class="footer">
     <div class="footerContainer">
