@@ -23,7 +23,7 @@ if ($conn->query($sql) === TRUE) {
 }
 // Query:
 $id = $_POST['id'];
-$sql = "select * from product, game where lower(product.name) like '%ps%' or lower(game.platform) like '%ps%'";
+$sql = "select * from game where game.platform like '%PS%' union select * from console where console.platform = 'Play Station'";
 
 $result = $conn->query($sql);
 
@@ -34,12 +34,9 @@ if($result->num_rows > 0){
       <tr>
          <th>ID</th>
          <th>Name</th>
-         <th>Company</th>
-         <th>Price</th>
- 	 <th>Stock</th>
-         <th>Sales</th>
-         <th>Rating</th>
-         <th>Department ID</th>
+         <th>Platform</th>
+         <th>Year</th>
+ 	 <th>Genre</th>
       </tr>
 
 <?php
@@ -48,12 +45,9 @@ while($row = $result->fetch_assoc()){
       <tr>
           <td><?php echo $row['id']?></td>
           <td><?php echo $row['name']?></td>
-          <td><?php echo $row['companyID']?></td>
-          <td><?php echo $row['price']?></td>
-          <td><?php echo $row['stock']?></td>
-          <td><?php echo $row['sales']?></td>
-          <td><?php echo $row['rating']?></td>
-          <td><?php echo $row['DID']?></td>
+          <td><?php echo $row['platform']?></td>
+          <td><?php echo $row['year']?></td>
+          <td><?php echo $row['genre']?></td>
       </tr>
 
 <?php
