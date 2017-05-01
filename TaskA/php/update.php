@@ -1,17 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Project 1 Milestone 3 - Online Video Game Store</title>
+<link href="../styles.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+<div class="mainContainer">
+  <div class="header">
+      <div class="logo">
+          VIDEO <span>GAMES</span><br />
+            <div class="author"></div>
+        </div>
+        <div class="search">
+       
+
+        <form action="../search/lookup.php" method="post">
+          <div class="searchIcon"><img src="../images/searchIcon.png" alt="" /></div>
+            SEARCH:<input type="text" name="name"/>
+            <div class="searchButton">
+            <input type="submit"></input>
+            </div>
+            <!-- <div class="searchButton"><a href=""><img src="images/searchButton.png" alt="" /></a></div> -->
+        </form>
+        </div>
+    </div>
+      
+    <div class="menu">
+      <ul>
+          <li class="active"><a href="../index.html">HOME</a></li>
+            <li><a href="../PlayStation/ps.php">PlayStation</a></li>
+            <li><a href="../XBOX/xbox.php">XBOX</a></li>
+            <li><a href="../NINTENDO/nintendo.php">NINTENDO</a></li>
+            <li><a href="../accessories/accessories.php">ACCESSORIES</a></li>
+            <li><a href="../management/management.php">Product Management</a></li>
+        </ul>
+    </div>
 
 <?php
 require_once('db_setup.php');
