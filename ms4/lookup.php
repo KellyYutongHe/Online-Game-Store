@@ -32,15 +32,44 @@ if ($conn->query($sql) === TRUE) {
 // Query:
 $name = $_POST['name'];
 $sql = "SELECT * FROM product WHERE name LIKE '%$name%';";
-$result = $conn->query($sql);
-
-if ($result === TRUE) {
-    echo "New record created successfully";
-} else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
-}
+if($result->num_rows > 0){
 
 ?>
+   <table class="table table-striped">
+      <tr>
+         <th>Type</th>
+         <th>ID</th>
+         <th>Name</th>
+         <th>Platform</th>
+         <th>Year</th>
+         <th>Genre</th>
+         <th>Color</th>
+         <th>Memory</th>
+      </tr>
+
+<?php
+while($row = $result->fetch_assoc()){
+?>
+      <tr>
+          <td><?php echo $row['type']?></td>
+          <td><?php echo $row['id']?></td>
+          <td><?php echo $row['name']?></td>
+          <td><?php echo $row['platform']?></td>
+          <td><?php echo $row['year']?></td>
+          <td><?php echo $row['genre']?></td>
+          <td><?php echo $row['color']?></td>
+          <td><?php echo $row['memory']?></td>
+      </tr>
+
+<?php
+}
+}
+else {
+        echo ":( Sorry we don't have what you are looking for in our store.";
+      }
+      ?>
+
+          </table>
 
 
 <?php
