@@ -23,7 +23,7 @@ if ($conn->query($sql) === TRUE) {
 }
 // Query:
 $id = $_POST['id'];
-$sql = "SELECT * FROM accessory";
+$sql = "SELECT * FROM accessory union Select price,stock,sales,rating from product where accessory.id = product.id";
 
 $result = $conn->query($sql);
 
@@ -35,6 +35,10 @@ if($result->num_rows > 0){
          <th>ID</th>
          <th>Name</th>
          <th>Category</th>
+         <th>Price</th>
+         <th>Stock</th>
+         <th>Sales</th>
+         <th>Rating</th>
       </tr>
 
 <?php
@@ -44,6 +48,10 @@ while($row = $result->fetch_assoc()){
           <td><?php echo $row['id']?></td>
           <td><?php echo $row['name']?></td>
           <td><?php echo $row['category']?></td>
+          <td><?php echo $row['price']?></td>
+          <td><?php echo $row['stock']?></td>
+          <td><?php echo $row['sales']?></td>
+          <td><?php echo $row['rating']?></td>
       </tr>
 
 <?php
