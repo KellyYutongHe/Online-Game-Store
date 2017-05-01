@@ -23,7 +23,7 @@ if ($conn->query($sql) === TRUE) {
 }
 // Query:
 $id = $_POST['id'];
-$sql = "SELECT * FROM accessory union Select price,stock,sales,rating from product where accessory.id = product.id";
+$sql = "SELECT a.id,a.name,a.category,price,stock,sales,rating FROM accessory as a, product where a.id = product.id";
 
 $result = $conn->query($sql);
 
