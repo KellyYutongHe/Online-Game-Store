@@ -30,48 +30,22 @@ if ($conn->query($sql) === TRUE) {
    echo "Error using  database: " . $conn->error;
 }
 // Query:
-$id = $_POST['id'];
 $name = $_POST['name'];
 $companyID = $_POST['companyID'];
 $price = $_POST['price'];
 $stock = $_POST['stock'];
 $rating = $_POST['rating'];
-$DID = $_POST['DID'];
-$sql = "INSERT ;";
+$sql = "INSERT INTO product (name,companyID,price,stock,sales,rating,DID) values ('$name', '$companyID', '$price', '$stock', 0, '$rating', 1);";
 $result = $conn->query($sql);
-if($result->num_rows > 0){
 
-//$stmt = $conn->prepare("Select * from Students Where Username like ?");
-//$stmt->bind_param("s", $username);
-//$result = $stmt->execute();
-//$result = $conn->query($sql);
-?>
-   <table class="table table-striped">
-      <tr>
-         <th>User ID</th>
-         <th>Rating</th>
-         <th>Location</th>
-         <th>Country</th>
-      </tr>
-<?php
-while($row = $result->fetch_assoc()){
-?>
-      <tr>
-          <td><?php echo $row['userID']?></td>
-          <td><?php echo $row['rating']?></td>
-          <td><?php echo $row['location']?></td>
-          <td><?php echo $row['country']?></td>
-      </tr>
+if ($result === TRUE) {
+    echo "New record created successfully";
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+}
 
-<?php
-}
-}
-else {
-        echo "User not found";
-}
 ?>
 
-    </table>
 
 <?php
 $conn->close();
