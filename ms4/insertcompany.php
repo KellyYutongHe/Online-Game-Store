@@ -32,11 +32,11 @@ if ($conn->query($sql) === TRUE) {
 $id = $_POST['id'];
 $name = $_POST['name'];
 $country = $_POST['country'];
-$sql = "INSERT into company values($id,"$name","$country");";
+$sql = "INSERT into company values($id,'$name','$country');";
 $result = $conn->query($sql);
 
 if ($result === TRUE) {
-    echo "New record created successfully";
+    echo "<script type='text/javascript'>alert('Company Inserted');</script>";
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }

@@ -37,8 +37,9 @@ $sql = "UPDATE product SET price = '$price', stock = '$stock' WHERE id = '$id';"
 $result = $conn->query($sql);
 
 if ($result === TRUE) {
-    echo "New record created successfully";
+    echo "<script type='text/javascript'>alert('Product Updated');</script>";
 } else {
+	
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
 

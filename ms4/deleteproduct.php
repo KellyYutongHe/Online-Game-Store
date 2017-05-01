@@ -30,7 +30,7 @@ $sql = "DELETE FROM  product where id =  $id;";
 $result = $conn->query($sql);
 
 if ($result === TRUE) {
-    echo "record deleted successfully";
+    echo "<script type='text/javascript'>alert('Product Deleted');</script>";
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }

@@ -46,52 +46,44 @@ if ($conn->query($sql) === TRUE) {
    echo "Error using  database: " . $conn->error;
 }
 // Query:
-$name = $_POST['name'];
-$sql = "SELECT * FROM product WHERE name LIKE '%$name%';";
+$id = $_POST['id'];
+$sql = "SELECT a.id,a.name,a.category,price,stock,sales,rating FROM accessory as a, product where a.id = product.id";
 $result = $conn->query($sql);
 
 if($result->num_rows > 0){
 
 ?>
 <div style="height:500px ;width:100%; border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto; background-color:rgba(255, 255, 255, 0.8);">
-   <table class="table table-striped">
-   <tr>
-      <th>ID</th>
-      <th>Name</th>
-      <th>Company</th>
-      <th>Price</th>
-      <th>Stock</th>
-      <th>Sales</th>
-      <th>Rating</th>
-      <th>Department ID</th>
-   </tr>
+      <table class="table table-striped">
+      <tr>
+         <th>ID</th>
+         <th>Name</th>
+         <th>Category</th>
+         <th>Price</th>
+         <th>Stock</th>
+         <th>Sales</th>
+         <th>Rating</th>
+      </tr>
 
 <?php
 while($row = $result->fetch_assoc()){
 ?>
-   <tr>
-       <td><?php echo $row['id']?></td>
-       <td><?php echo $row['name']?></td>
-       <td><?php echo $row['companyID']?></td>
-       <td><?php echo $row['price']?></td>
-       <td><?php echo $row['stock']?></td>
-       <td><?php echo $row['sales']?></td>
-       <td><?php echo $row['rating']?></td>
-       <td><?php echo $row['DID']?></td>
-   </tr>
+      <tr>
+          <td><?php echo $row['id']?></td>
+          <td><?php echo $row['name']?></td>
+          <td><?php echo $row['category']?></td>
+          <td><?php echo $row['price']?></td>
+          <td><?php echo $row['stock']?></td>
+          <td><?php echo $row['sales']?></td>
+          <td><?php echo $row['rating']?></td>
+      </tr>
 
 <?php
 
 }
 }
 else {
-
-
-
-
-echo "<script type='text/javascript'>alert(':( Sorry we don\'t have what you are looking for in our store.');</script>";
-
-
+        echo ":( Sorry we don't have what you are looking for in our store.";
 }
 ?>
 
@@ -101,6 +93,10 @@ echo "<script type='text/javascript'>alert(':( Sorry we don\'t have what you are
 $conn->close();
 ?>
 </div><!-- display list ends here -->
+
+
+
+
 
 
 

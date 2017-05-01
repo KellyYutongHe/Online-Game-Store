@@ -39,7 +39,7 @@ $sql = "INSERT INTO product (name,companyID,price,stock,sales,rating,DID) values
 $result = $conn->query($sql);
 
 if ($result === TRUE) {
-    echo "New record created successfully";
+    echo "<script type='text/javascript'>alert('Insert Success');</script>";
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
