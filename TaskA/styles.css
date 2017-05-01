@@ -2,6 +2,15 @@
 	margin:0; 
 	padding:0;
 }
+
+article {
+	display: table-cell;
+	background-size:cover;
+	background-color: rgba(255,255,255, 0.1);
+	color: #ffffff;
+	
+
+}
 body {
 	background:#14171b url(images/siteBackground.jpg) no-repeat center top;
 	font-family:Arial, Helvetica, sans-serif;
