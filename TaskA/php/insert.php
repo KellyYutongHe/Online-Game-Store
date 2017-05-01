@@ -15,7 +15,7 @@
         <div class="search">
        
 
-        <form action="../search/lookup.php" method="post">
+        <form action="../php/lookup.php" method="post">
           <div class="searchIcon"><img src="../images/searchIcon.png" alt="" /></div>
             SEARCH:<input type="text" name="name"/>
             <div class="searchButton">
@@ -33,7 +33,7 @@
             <li><a href="../XBOX/xbox.php">XBOX</a></li>
             <li><a href="../NINTENDO/nintendo.php">NINTENDO</a></li>
             <li><a href="../accessories/accessories.php">ACCESSORIES</a></li>
-            <li><a href="../management/management.php">Product Management</a></li>
+            <li><a href="../management/start.html">Product Management</a></li>
         </ul>
     </div>
 
