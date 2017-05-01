@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Project 1 Milestone 3 - Online Video Game Store</title>
+<link href="../../styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="mainContainer">
+    <div class="header">
+        <div class="logo">
+            VIDEO <span>GAMES</span><br />
+            <div class="author"></div>
+        </div>
+        <div class="search">
+       
+
+        <form action="../../php/lookup.php" method="post">
+            <div class="searchIcon"><img src="../../images/searchIcon.png" alt="" /></div>
+            SEARCH:<input type="text" name="name"/>
+            <div class="searchButton">
+            <input type="submit"></input>
+            </div>
+            <!-- <div class="searchButton"><a href=""><img src="images/searchButton.png" alt="" /></a></div> -->
+        </form>
+        </div>
+    </div>
+      
+    <div class="menu">
+        <ul>
+            <li><a href="../../index.html">HOME</a></li>
+            <li><a href="../../PlayStation/ps.php">PlayStation</a></li>
+            <li><a href="../../XBOX/xbox.php">XBOX</a></li>
+            <li><a href="../../NINTENDO/nintendo.php">NINTENDO</a></li>
+            <li><a href="../../accessories/accessories.php">ACCESSORIES</a></li>
+            <li><a href="../start.html">Product Management</a></li>
+        </ul>
+    </div><!-- End of menu -->
+
+<!-- List of Supports -->
+    <div>
+        <ul>
+            <li><a href="../update_product/start.html"><font size="4" color="white">Update Product</font></a></li>
+            <li class="active"><a href="start.html"><font size="4" color="white">Lookup Product</font></a></li>
+            <li><a href="../insert_product/start.html"><font size="4" color="white">Insert Product</font></a></li>
+            <li><a href="../delete_product/start.html"><font size="4" color="white">Delete Product</font></a></li>
+        </ul>
+    </div> <!-- End of list of Supports -->
+
+
+
+    <div>
+        <div class="form_content">
+        <form action="../../php/lookup.php" method="post">
+        <fieldset>
+            <legend>Product Lookup</legend>
+            
+            <div class="form-row">
+                <div class="field-label"><label for="field2">Product's Name</label>:</div>
+                <div class="field-widget"><input name="field2" id="field2" class="required" title="Enter your name" /></div>
+            </div>
+        </fieldset>
+        
+        
+        <input type="submit" class="submit" value="Submit"/> 
+        </form>
+        </div> 
+        
+        <script type="text/javascript">
+            function formCallback(result, form) {
+                window.status = "valiation callback for form '" + form.id + "': result = " + result;
+            }
+            
+            var valid = new Validation('test', {immediate : true, onFormValidate : formCallback});
+            Validation.addAllThese([
+                ['validate-password', '> 6 characters', {
+                    minLength : 7,
+                    notOneOf : ['password','PASSWORD','1234567','0123456'],
+                    notEqualToField : 'field1'
+                }],
+                ['validate-password-confirm', 'please try again.', {
+                    equalToField : 'field8'
+                }]
+            ]);
+        </script>
+    </div>  <!-- End of form contents -->
+
+
+
+<div class="footer">
+    <div class="footerContainer">
+        <div class="icons">
+            <ul>
+                <li><a href=""><img src="../../images/facebookIcon.png" alt="" /></a></li>
+                <li><a href=""><img src="../../images/twitterIcon.png" alt="" /></a></li>
+            </ul>
+        </div>
+        
+    </div>
+</div> <!-- End of footer -->
+
+
+</div>  <!-- End of main container -->
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+<!--
+// Alternative Style: Working With Alternate Style Sheets
+// http://www.alistapart.com/articles/alternate/
+function setActiveStyleSheet(title) {
+    var i, a, main;
+    for(i=0; (a = document.getElementsByTagName("link")[i]); i++) {
+        if(a.getAttribute("rel").indexOf("style") != -1 && a.getAttribute("title")) {
+        a.disabled = true;
+        }   
+        if(a.getAttribute("title") == title) {
+            a.disabled = false;
+        }
+    }
+}
+</script>
+
+</body>
+</html>
