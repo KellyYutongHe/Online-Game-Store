@@ -38,7 +38,7 @@
     </div>
 
 <?php
-require_once('db_setup.php');
+require_once('../db/db_setup.php');
 $sql = "USE yhe29;";
 if ($conn->query($sql) === TRUE) {
   //echo "using Database yhe29_User";
@@ -63,8 +63,9 @@ $result = $conn->query($sql);
 if ($result === TRUE) {
     echo "<script type='text/javascript'>alert('Product Updated');</script>";
 } else {
-	
-    echo "Error: " . $sql . "<br>" . $conn->error;
+
+    $emessage= "Error: " . $sql . "<br>" . $conn->error;
+    echo "<script type='text/javascript'>alert('$emessage');</script>";
 }
 
 ?>

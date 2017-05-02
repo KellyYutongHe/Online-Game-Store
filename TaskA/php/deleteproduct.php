@@ -38,10 +38,10 @@
     </div>
 
 <?php
-require_once('db_setup.php');
+require_once('../db/db_setup.php');
 $sql = "USE yhe29;";
 if ($conn->query($sql) === TRUE) {
-   // echo "using Database tbiswas2_company";
+   
 } else {
    echo "Error using  database: " . $conn->error;
 }
@@ -56,7 +56,8 @@ $result = $conn->query($sql);
 if ($result === TRUE) {
     echo "<script type='text/javascript'>alert('Product Deleted');</script>";
 } else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
+    $emessage= "Error: " . $sql . "<br>" . $conn->error;
+    echo "<script type='text/javascript'>alert('$emessage');</script>";
 }
 //$stmt = $conn->prepare("Select * from Students Where Username like ?");
 //$stmt->bind_param("s", $username);
